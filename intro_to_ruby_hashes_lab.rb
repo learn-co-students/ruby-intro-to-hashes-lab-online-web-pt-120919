@@ -30,6 +30,7 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
+<<<<<<< HEAD
 #fist level hash belowe
  monopoly = {
 #second level hash below here	 
@@ -41,6 +42,14 @@ def monopoly_with_third_tier
 	   :b_and_o_railroad => {},
 	   :shortline => {}
 	    },
+=======
+			monopoly = {
+	 :railroads => {pieces: 4,
+	   :names => {:reading_railroad =>{},
+	   :pennsylvania_railroad => {},
+	   
+	  },
+>>>>>>> f6104baefda818734b11a7ee210985891f851439
 	 :rent_in_dollars => {
 	    :one_piece_owned => 25,
 	    :two_pieces_owned => 50,
