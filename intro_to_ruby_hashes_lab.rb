@@ -1,27 +1,29 @@
-def new_hash
-
+def new_hash()
+  puts {}
 end
 
-def actor
 
+def actor(Channing Tatum)
+  puts "Hello, my name is {#actor}
 end
 
-def monopoly
-	monopoly = {}
-
+e
+def actor(Channing Tatum)
+  puts "Hello, my name is {#actor}
 end
 
-def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
-end
-
-def monopoly_with_third_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
-end
-
-def monopoly_with_fourth_tier
-	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
-
-end
+guitars = {
+  :name => {
+    :epiphone => {
+      :stats => [:type => "electric", :strings => "6", :tune => "drop d"]
+    },
+    :gibson => {
+      :stats => [:type => "acoustic/electric", :strings => "6", :tune => "e major"]
+    }
+    :fender => {
+      :stats => [:type => "acoustic", :strings => "12", :tune => "standard"]
+    }
+    :ibanez => {
+        :stats => [:type => "acoustic", :strings => "4 :tune => "drop d"]
+  }
+}
